@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    padding-left: 120px;
+}
+dt{
+    color: black;
+    font-size: 20px;
+}
+dt a{
+    color: black;
+    text-decoration: underline; 
+    font-size: 24px;
+}
+dd{
+    font-size: 22px;
+}
+p{
+    font-size: 24px;
+    text-indent: 20px;   /* отступ для первой строки */  
+    line-height: 30px; /* межстрочный интревал, точнее это высота строки*/ 
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.Button_for_update_counterAllPages {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }

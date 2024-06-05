@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    font-size: 200%;
+}
+
+table tbody tr td:first-child {
+    color: black;
+    font-size: 20px;
+}
+table tbody tr td:first-child a {
+    color: black;
+    text-decoration: underline; 
+    font-size: 20px;
+}
+table tbody tr td:last-child {
+    font-size: 18px;
+}
